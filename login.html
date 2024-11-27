@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/static/estilos.css" />
+    <title>Tela de login</title>
+</head>
+<body>
+    <form method="POST">
+        <div>
+            <label for="tx-usuario">Usuário:</label><br>
+            <input type="text" name="usuario" id="tx-usuario">
+        </div>
+        <div>
+            <label for="tx-senha">Senha:</label><br>
+            <input type="password" name="senha" id="tx-senha">
+        </div>
+        <br />
+        <button type="submit">Enviar</button>
+        <p class="urgente">{{ erro }}</p>
+    </form>
+</body>
+</html>
